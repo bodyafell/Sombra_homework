@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 
 const Body = () => {
   return (
@@ -18,8 +18,14 @@ const Body = () => {
                   <p style={styles.position}>Software engineer</p>
               </div>
           </div>
-      </div>
 
+            <div style={styles.card}>
+                <img src={"/anastasiia_syvvyk.png"} alt="Сивик Анастасія" style={styles.photo} />
+                <div style={styles.textContainer}>
+                    <h2 style={styles.name}>Сивик Анастасія</h2>
+                    <p style={styles.position}>Project manager</p>
+                </div>
+            </div>
       {/* 2. КАРТКА ВАШЕ ІМ'Я (додана) */}
       <div style={styles.card}>
         {/*
