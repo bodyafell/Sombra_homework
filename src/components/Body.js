@@ -20,9 +20,9 @@ const Body = () => {
           </div>
 
             <div style={styles.card}>
-                <img src={"/anastasiia_syvvyk.png"} alt="Сивик Анастасія" style={styles.photo} />
+                <img src={"/anastasiia_syvvyk.png"} alt="Syvyk Anastasiia" style={styles.photo} />
                 <div style={styles.textContainer}>
-                    <h2 style={styles.name}>Сивик Анастасія</h2>
+                  <h2 style={styles.name}>Syvyk Anastasiia</h2>
                     <p style={styles.position}>Project manager</p>
                 </div>
             </div>
@@ -80,6 +80,6 @@ const styles = {
     color: "#6a0dad", // Same purple color as header
     margin: "0.5em 0 0 0",
   },
-};
+}; 
 
 export default Body;
