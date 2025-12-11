@@ -82,4 +82,4 @@ const styles = {
   },
 };
 
-export default Body;
+export default Body;   
